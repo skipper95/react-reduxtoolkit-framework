@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "Roboto-Black";
+	src: url("./fonts/Roboto-Black.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Light";
+	src: url("./fonts/Roboto-Light.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+// -------- Noto sans ----------- //
+@font-face {
+	font-family: "NotoSansJP-Regular";
+	src: url("./fonts/noto-sans/noto-sans-jp-japanese-400.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoSansJP-Bold";
+	src: url("./fonts/noto-sans/noto-sans-jp-japanese-900.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoSansJP-Black";
+	src: url("./fonts/noto-sans/noto-sans-jp-japanese-700.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "NotoSansJP-Light";
+	src: url("./fonts/noto-sans/noto-sans-jp-japanese-300.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NotoSansJP-Medium";
+	src: url("./fonts/noto-sans/noto-sans-jp-japanese-500.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+// -------- Noto sans ----------- //
+
+html {
+	body {
+		font-size: 13px;
+		.font_20 {
+			font-size: 20px;
+		}
+		.font_12 {
+			font-size: 12px;
+		}
+		.font_11 {
+			font-size: 11px;
+		}
+		.font-16 {
+			font-size: 16px;
+		}
+		.font-body {
+			font-size: 13px;
+		}
+		//antd_modal
+		font-family: "NotoSansJP-Regular";
+		.font_weight_bold {
+			font-family: "NotoSansJP-Bold";
+		}
+		// Roboto
+		.roboto_font {
+			font-family: "Roboto-Regular";
+			.font_weight_bold {
+				font-family: "Roboto-Bold";
+			}
+			.font_weight_black {
+				font-family: "Roboto-Black";
+			}
+			.font_weight_medium {
+				font-family: "Roboto-Medium";
+			}
+			.font_weight_thin {
+				font-family: "Roboto-Light";
+			}
+			.font_weight_regular {
+				font-family: "Roboto-Regular";
+			}
+		}
+		.noto_sans_font {
+			font-family: "NotoSansJP-Regular";
+			.font_weight_bold {
+				font-family: "NotoSansJP-Bold";
+			}
+			.font_weight_black {
+				font-family: "NotoSansJP-Black";
+			}
+			.font_weight_medium {
+				font-family: "NotoSansJP-Medium";
+			}
+			.font_weight_thin {
+				font-family: "NotoSansJP-Light";
+			}
+			.font_weight_regular {
+				font-family: "NotoSansJP-Regular";
+			}
+		}
+	}
+}
