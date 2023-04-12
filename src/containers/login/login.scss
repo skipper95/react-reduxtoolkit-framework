@@ -1,0 +1,107 @@
+.is_web {
+	.login_container {
+		background-image: url("../../../public/images/login_image.png");
+		background-position: left;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 5% 5% 5% 0px;
+		.login_card {
+			width: 33.33%;
+			max-width: 500px;
+			padding: 30px;
+			background-color: rgb(255 255 255/0.71);
+			border-radius: 19px;
+			box-shadow: 0px 2px 4px var(--boxShadow);
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: auto;
+			.login_heading {
+				text-align: center;
+				color: var(--themeColor);
+				font-size: 24px;
+			}
+			.login_head_dec {
+				font-size: 12px;
+				color: var(--shadeText);
+				text-align: center;
+			}
+			.login_input_container {
+				.login_input_label {
+					font-size: 12px;
+					color: var(--loginText);
+				}
+				input {
+					border: 1px solid var(--loginInputBorder);
+					border-radius: 6px;
+					height: 34px;
+					width: 100%;
+					background-color: transparent;
+					outline: none !important;
+					box-shadow: none !important;
+					padding: 0px 15px;
+				}
+				.password_eye_container {
+					> input {
+						padding-right: 30px;
+					}
+					.password_eye {
+						position: absolute;
+						top: 8px;
+						right: 10px;
+						color: var(--themeColor);
+					}
+				}
+			}
+			.login_remember_me {
+				color: var(--themeColor);
+				font-size: 11px;
+				display: flex;
+				align-items: center;
+				user-select: none;
+				> input {
+					background-color: var(--themeColor);
+					cursor: pointer;
+					&[type="checkbox"] {
+						accent-color: var(--themeColor);
+					}
+				}
+				.ant-checkbox-wrapper {
+					.ant-checkbox {
+						.ant-checkbox-inner {
+							background-color: #e3efe6;
+							border: 1px solid var(--themeColor);
+							border-radius: 2px;
+						}
+						&.ant-checkbox-checked {
+							.ant-checkbox-inner {
+								background-color: var(--themeColor);
+							}
+							&:after {
+								border-color: var(--themeColor);
+							}
+						}
+					}
+				}
+			}
+			.forgot_password_label {
+				color: #1673ca;
+				text-decoration: underline;
+				cursor: pointer;
+				font-size: 11px;
+				user-select: none;
+			}
+			.login_btn {
+				width: 100%;
+				max-width: 500px;
+				border-radius: 10px;
+				min-height: 34px;
+			}
+		}
+	}
+}
